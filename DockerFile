@@ -1,4 +1,4 @@
 # contenedor ubuntu willy v.0.1
 FROM ubuntu:18.04.2
-RUN apt-get update -y 
+RUN apt-get update -y && apt-get install apache2 -y && apt-get install ngyx -y && apt-get install terminator
 ENTRYPOINT echo "instalacion exitosa"
