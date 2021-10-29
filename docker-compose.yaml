@@ -1,0 +1,10 @@
+version: '3'
+services: 
+  conteiner:
+    image: ubuntu-willy
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50Mml
