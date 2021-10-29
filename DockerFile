@@ -1,0 +1,4 @@
+# contenedor ubuntu willy v.0.1
+FROM ubuntu:18.04.2
+RUN apt-get update -y 
+ENTRYPOINT echo "instalacion exitosa"
